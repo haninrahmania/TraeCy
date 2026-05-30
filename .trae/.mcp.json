@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "alignment": {
+      "command": "python",
+      "args": ["C:/Users/HANIN/Documents/trae_projects/trae_test/traecy_mcp/alignment_server.py"],
+      "env": {}
+    }
+  },
+  "settings": {
+    "alignment": {
+      "timeout": 30,
+      "retries": 3
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Alignment scoring MCP server for cross-team PM pipeline",
+    "backend": "embeddings",
+    "defaultThreshold": 0.40
+  }
+}
